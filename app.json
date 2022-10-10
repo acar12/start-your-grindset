@@ -2,6 +2,7 @@
   "expo": {
     "name": "start-grind",
     "slug": "start-grind",
+    "owner": "al_al_al",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,6 +17,18 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ind.alalal.start_grind"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7e415370-9f6a-416e-8f91-75bf0f8797e7"
+      }
+    }
   }
 }
